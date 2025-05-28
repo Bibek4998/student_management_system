@@ -1,0 +1,19 @@
+.policy-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  /* padding: 10px; */
+}
+
+.policy-container h2, h3 {
+  color: #2a8a4a;
+}
+
+.policy-container ul {
+  padding-left: 20px;
+}
