@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
     margin: 0%;
     width: 100%;
@@ -10,11 +13,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(94, 199, 201);
-    /* box-shadow: 5px 4px 10px black; */
+    background-color: rgb(251, 251, 251);
     padding: 10px;
     margin: 0 10px 0px 10px ;
     border-radius: 20px 10px;
+    scroll-behavior: smooth;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .top-container .image-container{
     width: 60%;
