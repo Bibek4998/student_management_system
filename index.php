@@ -41,7 +41,7 @@
       </div>
       <div class="links">
         <a href="index.php">Home</a>
-        <a href="see.php" target="_blank">See students</a>
+        <a href="see_students.php" target="_blank">See students</a>
         <a href="privacy.php" target="_blank">College Policy</a>
       </div>
       <div class="social-links">
