@@ -52,7 +52,7 @@ mysqli_close($conn);
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Student Management System</title>
+  <title>Add students</title>
   <link rel="stylesheet" href="assets/css/add.css">
 </head>
 <body>
