@@ -29,24 +29,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Admin Login</title>
-    <style>
-        body { font-family: Arial; background: #f0f0f0; display: flex; justify-content: center; align-items: center; height: 100vh; }
-        .login-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px #ccc; }
-        input { display: block; width: 100%; padding: 10px; margin: 10px 0; }
-        .error { color: red; }
-    </style>
+    <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
-    <div class="login-box">
+    <div class="login-container">
         <h2>Admin Login</h2>
         <?php if ($error) echo "<p class='error'>$error</p>"; ?>
-        <form method="post" action="">
-            <input type="text" name="username" placeholder="Username" required />
-            <input type="password" name="password" placeholder="Password" required />
-            <input type="submit" value="Login" />
+        <form method="POST" action="">
+            <input type="text" name="username" placeholder="Enter username" required>
+            <input type="password" name="password" placeholder="Enter password" required>
+            <button type="submit">Login</button>
         </form>
     </div>
 </body>
