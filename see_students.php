@@ -29,7 +29,7 @@ if (mysqli_num_rows($result) > 0) {
               <th>Batch</th>
               <th>Semester</th>
               <th>Marksheet</th>
-              <th>Character Cert</th>
+              <th>Character Certificate</th>
               <th>CMAT</th>
               <th>Photo1</th>
               <th>Photo2</th>
