@@ -31,6 +31,7 @@
             </div>
         </div>
     <div class="container">
+      <img src="assets/images/banners.jpg" alt="banner">
     </div>
     </section>
 <section>

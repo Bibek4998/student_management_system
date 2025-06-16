@@ -45,17 +45,6 @@ body{
 }
 
 
-.container {
-    display: flex;
-    justify-content: center;
-    width: 98%;
-    background-image: url("/html_css/assets/images/collegepic.jpg");
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 100px 260px 160px 370px ;
-    margin: 0px 10px;
-}
 .text-container{
     margin: 10px;
     width: 98%;
@@ -70,6 +59,24 @@ body{
     background-color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius: 100px 260px 160px 370px;
+    overflow: hidden;
+    width: 98%;
+    height: 500px;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .text-photos{
     display: flex;
     padding: 20px;
