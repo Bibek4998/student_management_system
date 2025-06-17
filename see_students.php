@@ -1,3 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>See Students</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+      <section>
+        <div class="top-container">
+            <div class="image-container">
+                <a href="index.php">
+                    <img src="assets/images/logo.jpg" alt="logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <a href="dashboard.php">Home</a>
+                <a href="add.php">Add student</a>
+                <a href="delete_student.php">Delete student</a>
+                <a href="see_students.php">See students</a>
+                <a href="index.php">Login</a>
+                <a href="logout.php">Logout</a>
+            </nav>
+        </div>
+    </section>
+
+  
+</body>
+</html>
+
 <?php
 $conn = mysqli_connect("localhost", "root", "", "kcmit_students");
 

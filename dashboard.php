@@ -10,15 +10,15 @@
     <section>
         <div class="top-container">
             <div class="image-container">
-                <a href="index.php">
+                <a href="dashboard.php">
                     <img src="assets/images/logo.jpg" alt="logo">
                 </a>
             </div>
             <nav class="navbar">
-                <a href="index.php">Home</a>
-                <a href="add.php" target="_blank">Add student</a>
-                <a href="delete_student.php" target="_blank">Delete student</a>
-                <a href="see_students.php" target="_blank">See students</a>
+                <a href="dashboard.php">Home</a>
+                <a href="add.php" >Add student</a>
+                <a href="delete_student.php" >Delete student</a>
+                <a href="see_students.php" >See students</a>
                 <a href="index.php">Login</a>
                 <a href="logout.php">Logout</a>
             </nav>
