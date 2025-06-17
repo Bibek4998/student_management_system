@@ -19,6 +19,8 @@
                 <a href="add.php" target="_blank">Add student</a>
                 <a href="delete_student.php" target="_blank">Delete student</a>
                 <a href="see_students.php" target="_blank">See students</a>
+                <a href="index.php">Login</a>
+                <a href="logout.php">Logout</a>
             </nav>
         </div>
     </section>
