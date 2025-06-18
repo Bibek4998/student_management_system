@@ -10,7 +10,7 @@
       <section>
         <div class="top-container">
             <div class="image-container">
-                <a href="index.php">
+                <a href="dashboard.php">
                     <img src="assets/images/logo.jpg" alt="logo">
                 </a>
             </div>
@@ -66,7 +66,7 @@ if (mysqli_num_rows($result) > 0) {
               <th>Photo2</th>
             </tr>";
 
-    mysqli_data_seek($result, 0); // Reset pointer
+    mysqli_data_seek($result, 0);
 
     $found = false;
     while ($row = mysqli_fetch_assoc($result)) {

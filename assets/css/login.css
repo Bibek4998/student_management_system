@@ -1,67 +1,70 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background: linear-gradient(135deg, #2d3e50, #4b6cb7);
-    height: 100vh;
-    font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .login-container {
-    background: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .login-container h2 {
-    margin-bottom: 20px;
-    color: #333;
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 12px 15px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus {
-    border-color: #4b6cb7;
-    outline: none;
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 button {
-    width: 100%;
-    padding: 12px;
-    background: #4b6cb7;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {
-    background: #3a539b;
+  background-color: #0056b3;
 }
 
-.error {
-    color: #e74c3c;
-    text-align: center;
-    margin-bottom: 15px;
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bottom-link {
+  text-align: center;
+}
+.bottom-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+.bottom-link a:hover {
+  color: #e000a3;
 }

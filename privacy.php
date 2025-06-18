@@ -11,7 +11,7 @@
       <section>
         <div class="top-container">
             <div class="image-container">
-                <a href="index.php">
+                <a href="dashboard.php">
                     <img src="assets/images/logo.jpg" alt="logo">
                 </a>
             </div>
